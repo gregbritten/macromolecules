@@ -61,8 +61,8 @@ model {
   theta[6] ~ normal(10,10); 
   theta[7] ~ normal(0.05,5); 
   
-  for(i in 1:4){
-    y[1:n,i] ~ normal(x[1:n,i], sigma[i]);
-  }
+  //for(i in 1:4){
+  //  y[1:n,i] ~ normal(x[1:n,i], sigma[i]);
+  //}
 }
 
